@@ -1,0 +1,17 @@
+[
+    {
+        "description": "ภาษาไทย",
+        "languageCode": "en_GB",
+        "status": "Active"
+    },
+    {
+        "description": "Tiếng Việt",
+        "languageCode": "vi_VN",
+        "status": "Active"
+    },
+    {
+        "description": "English",
+        "languageCode": "en_US",
+        "status": "Active"
+    }
+]

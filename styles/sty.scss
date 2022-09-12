@@ -1,0 +1,109 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import 'antd/dist/antd.css';
+
+$nav-bar-color: rgba(9, 58, 121, 1);
+$nhr-secondary100: #d1d7e7;
+
+$background-color: #2c4058;
+.form-search {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.card-header {
+    font-size: 24px;
+    background-color: #2c4058;
+    color: white;
+}
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.navbar-button {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu {
+    background: linear-gradient(to bottom, rgba(14, 15, 134, 1) 0%, rgba(9, 58, 121, 1) 35%, rgba(99, 105, 138, 1) 100%);
+}
+
+.childrenCollapse {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+//login
+#login-wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: $nhr-secondary100;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.login-input {
+    margin-top: 1rem;
+}
+
+#login-img-left {
+    height: 15rem !important;
+}
+#login-img-right {
+    height: 10rem !important;
+}
+
+#login-container-left {
+    border-radius: 28px 0 0 28px !important ;
+    border: 1px solid gray;
+    height: 666px !important;
+    background-color: $nav-bar-color;
+}
+#login-container-right {
+    border: 1px solid gray;
+    border-radius: 0 28px 28px 0 !important;
+    height: 666px !important;
+    background-color: $nav-bar-color;
+    padding: 1rem;
+}
+#login-row {
+    // margin: 5rem;
+    // padding: 0;
+}
+#login-card {
+    align-self: center;
+    margin: auto;
+    width: 864px;
+    height: 666px;
+    //box-shadow: 0 24px 38px rgba(104,120,171,0.14), 0 9px 46px rgba(104,120,171,0.12), 0 11px 15px rgba(104,120,171,0.2);
+    border-radius: 28px;
+    background-color: white;
+    z-index: 1;
+}
+
+//Home
+#home-page {
+    padding: 35px;
+    height: 850px;
+    background-color: #eff2f3;
+}
+.text-description {
+    font-size: 16px;
+}
+.card-home {
+    margin-top: 16px;
+}
+.home-card-img {
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+}
+.home-card {
+    height: 380px;
+    width: 18rem;
+}
+//Language
+.language-card {
+    padding: 30px;
+    margin: 20px;
+}

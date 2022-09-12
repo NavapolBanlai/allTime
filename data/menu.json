@@ -1,0 +1,16 @@
+[
+    {
+        "name": "HOME",
+        "link": "./home",
+        "icon": "GoHome"
+    },
+
+    {
+        "name": "Master OTP",
+        "icon": "GoSettings",
+        "subMenu": [
+            { "name": "OTP Messge", "link": "./otpMessge" },
+            { "name": "Language", "link": "./language" }
+        ]
+    }
+]
